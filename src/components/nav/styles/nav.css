@@ -17,12 +17,7 @@
   }
 }
 
-.nav__menu {
-  display: none;
-  cursor: pointer;
-}
-
-.nav__close {
+.nav__menu, .nav__close {
   display: none;
   cursor: pointer;
 }

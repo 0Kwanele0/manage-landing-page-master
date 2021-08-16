@@ -10,9 +10,9 @@ function Nav() {
     let listy = useRef(null)
     let open = useRef(null)
 
-    window.addEventListener('resize', function () { 
-        window.location.reload(); 
-    });
+    // window.addEventListener('resize', function () { 
+    //     window.location.reload(); 
+    // });
 
     function openNav() {
         listy.style.display= "flex"

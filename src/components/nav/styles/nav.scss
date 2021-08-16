@@ -6,11 +6,7 @@
     @media screen and (min-width:940px) {
         padding: 20px 70px;  
     }
-    &__menu{
-        display: none;
-        cursor: pointer;
-    }
-    &__close{
+    &__menu, &__close{
         display: none;
         cursor: pointer;
     }
