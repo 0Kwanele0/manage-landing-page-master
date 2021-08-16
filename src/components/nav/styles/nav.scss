@@ -31,6 +31,18 @@
             }
         }
     }
+    &__list-mob{
+        display: none;
+        list-style: none;
+        li{
+            padding: 0 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            &:hover{
+                color: rgb(248, 132, 106);
+            }
+        }
+    }
     &__btn{
         display: none;
         @media screen and (min-width:1016px) {
@@ -42,6 +54,9 @@
 @media screen and (max-width: 800px) {
     .nav{
         &__list{
+            display: none;
+        }
+        &__list-mob{
             position: absolute;
             flex-direction: column;
             top: 70px;
