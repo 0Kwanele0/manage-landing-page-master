@@ -1,5 +1,4 @@
 import React from 'react'
-import logofoo from '../../images/log.svg'
 import instagram from '../../images/icon-instagram.svg'
 import facebook from '../../images/icon-facebook.svg'
 import pintrest from '../../images/icon-pinterest.svg'

@@ -12,7 +12,7 @@ function Testimonies() {
                     {
                         testimonyLists.map((ele, key) => {
                             return (
-                                <div className="testimony__indi">
+                                <div key={key} className="testimony__indi">
                                     <img src={ ele.avatar} alt="profile" />
                                     <h4>{ ele.name}</h4>
                                     <p>{ ele.testimony}</p>

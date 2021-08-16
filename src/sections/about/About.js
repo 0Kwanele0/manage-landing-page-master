@@ -18,7 +18,7 @@ function About() {
                 {
                     aboutList.map((element, key) => {
                         return (
-                        <div className="indi">
+                        <div key={key} className="indi">
                             <div className="head">
                                     <h3 className="number">{ element.number}</h3>
                                     <h3 className="title">{ element.title}</h3>
