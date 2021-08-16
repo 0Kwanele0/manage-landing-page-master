@@ -1,0 +1,78 @@
+.testimony {
+  padding: 30px;
+  color: #242d52;
+  text-align: center;
+}
+
+.testimony h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 378px) {
+  .testimony h2 {
+    font-size: 35px;
+  }
+}
+
+.testimony__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-x: auto;
+  padding: 30px 0;
+  width: 100%;
+  height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .testimony__container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.testimony__container::-webkit-scrollbar {
+  display: none;
+}
+
+.testimony__indi {
+  height: 100%;
+  min-width: 300px;
+  max-width: 400px;
+  cursor: pointer;
+  scroll-behavior: smooth;
+  width: 100%;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 378px) {
+  .testimony__indi {
+    min-width: 340px;
+  }
+}
+
+.testimony__indi h4 {
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 800px) {
+  .testimony {
+    padding: 80px 0;
+  }
+  .testimony h2 {
+    text-align: center;
+    font-size: 38px;
+  }
+  .testimony__container {
+    padding: 40px 0;
+  }
+}
+/*# sourceMappingURL=testimonies.css.map */
