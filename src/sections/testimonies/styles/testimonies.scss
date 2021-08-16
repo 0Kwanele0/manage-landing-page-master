@@ -6,6 +6,7 @@
     h2{
         font-size: 30px;
         font-weight: 800;
+        padding: 20px 0;
         @media screen and (min-width:378px) {
                 font-size: 35px;
             }
@@ -14,7 +15,7 @@
             display: flex;
             align-items: center;
             overflow-x: auto;
-            padding: 30px 0;
+            padding: 50px 0;
             width: 100%;
             height: 100%;
             -ms-overflow-style: none;

@@ -83,7 +83,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: white;
+  color: #fafafa;
   list-style: none;
   padding: 20px 0px;
   min-width: 210px;
@@ -121,6 +121,7 @@
           justify-content: space-between;
   width: 35%;
   min-width: 210px;
+  max-width: 350px;
 }
 
 @media screen and (max-width: 538px) {
