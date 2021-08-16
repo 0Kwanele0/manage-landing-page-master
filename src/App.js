@@ -1,11 +1,10 @@
-import BtnPrimary from "./components/btn/btn-primary";
+import Showcase from "./sections/showcase/Showcase";
 
 
 function App() {
   return (
     <div className="App">
-      <h2>HELLO WORLD</h2>
-      <BtnPrimary text="Get Started" />
+      <Showcase />
     </div>
   );
 }

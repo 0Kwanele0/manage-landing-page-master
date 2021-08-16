@@ -1,1 +1,111 @@
-/* No CSS *//*# sourceMappingURL=showcase.css.map */
+.showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  overflow-x: hidden;
+}
+
+.showcase__vector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.showcase__vector img {
+  width: 90%;
+  max-width: 400px;
+}
+
+.showcase__cta {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.showcase__cta h1 {
+  line-height: 1.3;
+  font-size: 30px;
+  font-weight: 800;
+  color: #242d52;
+}
+
+@media screen and (min-width: 378px) {
+  .showcase__cta h1 {
+    font-size: 40px;
+  }
+}
+
+.showcase__cta p {
+  margin: 20px 0;
+  color: #242d52;
+}
+
+@media screen and (min-width: 800px) {
+  .showcase {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width: 800px) and (min-width: 940px) {
+  .showcase {
+    padding: 30px 70px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .showcase__cta {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 50%;
+    text-align: left;
+  }
+  .showcase__cta h1 {
+    font-size: 45px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 800px) and (min-width: 1000px) {
+  .showcase__cta h1 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .showcase__cta p {
+    max-width: 390px;
+  }
+  .showcase__vector {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 50%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .showcase__vector img {
+    min-width: 10px;
+    max-width: 490px;
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=showcase.css.map */
