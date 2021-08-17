@@ -83,7 +83,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #fafafa;
+  color: rgba(255, 255, 255, 0.796);
   list-style: none;
   padding: 20px 0px;
   min-width: 210px;
@@ -101,6 +101,7 @@
 .footer__menu li {
   padding: 0 0 7px 0;
   font-size: 20px;
+  white-space: nowrap;
 }
 
 .footer__list {

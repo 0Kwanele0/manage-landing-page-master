@@ -39,7 +39,7 @@
         width: 35%;
         display: flex;
         justify-content: center;
-        color: hsl(0, 0%, 98%);
+        color: hsla(0, 0%, 100%, 0.796);
         list-style: none;
         padding: 20px 0px;
         min-width: 210px;
@@ -50,6 +50,7 @@
         li{
             padding:0 0 7px 0;
             font-size: 20px;
+            white-space: nowrap;
         }
     }
     &__list{
