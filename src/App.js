@@ -1,3 +1,4 @@
+import './app.css'
 import Footer from "./components/footer/Footer";
 import Nav from "./components/nav/Nav";
 import About from "./sections/about/About";

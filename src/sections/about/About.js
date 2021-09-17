@@ -7,7 +7,7 @@ function About() {
         <div className="about">
             <div className="about__intro">
                 <h2>What's different about Manage</h2>
-                <p>
+                <p className="para">
                     Manage provides all the functionality
                     your team needs, without the complexity.
                     Our software is tailor-made for modern
@@ -23,7 +23,7 @@ function About() {
                                     <h3 className="number">{ element.number}</h3>
                                     <h3 className="title">{ element.title}</h3>
                             </div>
-                            <p>
+                            <p className="para">
                                 {element.description}
                             </p>
                         </div>
