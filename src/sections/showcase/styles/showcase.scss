@@ -4,14 +4,12 @@
   align-items: center;
   padding: 30px;
   overflow-x: hidden;
-  @media screen and (max-width: 340px) {
-    padding: 30px 8px;
-  }
+
   &__vector {
     display: flex;
     justify-content: center;
     img {
-      width: 100%;
+      width: auto;
       height: 288px;
     }
   }
@@ -37,13 +35,13 @@
   .showcase {
     flex-direction: row;
     align-items: center;
-    min-height: 580px;
+    min-height: 560px;
     @media screen and (min-width: 940px) {
       padding: 30px 110px;
     }
     &__cta {
       order: 1;
-      width: 60%;
+      width: 57%;
       text-align: left;
       h1 {
         font-size: 45px;
@@ -62,8 +60,8 @@
       img {
         min-width: 10px;
         max-width: 490px;
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: auto;
       }
     }
   }
