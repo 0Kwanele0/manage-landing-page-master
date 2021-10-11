@@ -1,4 +1,8 @@
-.para{
-    font-size: 18px;
-    font-weight: 300;
+body {
+  max-width: 1300px;
+  margin: auto;
+}
+.para {
+  font-size: 18px;
+  font-weight: 300;
 }
